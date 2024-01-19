@@ -1,0 +1,80 @@
+Test 3 --number -n and -b --non-blank
+
+text
+text text
+text
+texttexttext texttexttexttext texttexttexttext
+texttexttext
+texttexttexttexttext
+texttext
+text
+
+texttexttexttext
+texttexttexttexttexttext
+
+
+texttexttexttexttexttexttext
+
+
+texttexttexttext
+			texttexttexttexttexttext				texttexttexttexttexttext
+			
+			
+texttexttexttexttexttexttexttext texttexttexttext 			 texttext 
+texttexttexttexttexttexttext
+
+
+texttexttext
+ texttexttext
+ 
+ texttext
+ 
+ texttexttexttexttexttexttexttext
+ 
+ 
+ 
+ texttexttext
+ 
+
+
+
+texttexttexttexttexttexttexttext
+texttexttexttexttext
+texttext
+text
+texttexttext
+text
+text
+text
+texttexttext
+
+
+texttexttexttexttexttexttexttext
+texttexttexttexttext
+texttext
+text
+texttexttext
+text
+text
+text
+
+
+texttexttexttexttexttexttexttext
+texttexttexttexttext
+texttext
+text
+texttexttext
+text
+text
+text
+
+texttexttexttexttexttexttexttext
+texttexttexttexttext
+texttext
+text
+texttexttext
+text
+text
+text
+
+end.
