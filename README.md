@@ -11,3 +11,5 @@
 ## DevOps
 
 ### [Linux](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/D01_Linux)
+
+### [Linux Network](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/D02_LinuxNetwork)
