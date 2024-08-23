@@ -1,0 +1,70 @@
+stages:
+  - build
+  - style
+  - test
+  - deploy
+
+build-job:
+  stage: build
+  tags:
+    - build
+  script:
+    - cd ./src/cat
+    - make s21_cat
+    - cd ../grep
+    - make s21_grep
+  artifacts:
+    paths:
+      - src/cat/s21_cat
+      - src/grep/s21_grep
+    expire_in: 30 days
+  after_script:
+    - cd ./src/scripts/
+    - chmod +x notification.sh
+    - ./notification.sh
+
+style-job:
+  stage: style
+  tags: 
+    - style
+  script:
+    - cd src/
+    - clang-format --Werror -n cat/*.c cat/*.h grep/*.c grep/*.h
+  after_script:
+    - cd ./src/scripts/
+    - chmod +x notification.sh
+    - ./notification.sh
+
+test-job:
+  stage: test
+  needs: ["build-job", "style-job"]
+  tags:
+    - test
+  script:
+    - cd ./src/scripts
+    - chmod +x integration_tests.sh
+    - ./integration_tests.sh
+  after_script:
+    - cd ./src/scripts/
+    - chmod +x notification.sh
+    - ./notification.sh
+
+deploy-job:
+  stage: deploy
+  needs: ["build-job", "style-job", "test-job"]
+  tags:
+    - deploy
+  when: manual
+  script:
+    - mkdir ./src/logs
+    - cd ./src/scripts/
+    - chmod +x deploy.sh
+    - ./deploy.sh > ../logs/deploy_log.txt 2>&1
+  artifacts:
+    paths:
+      - src/logs/deploy_log.txt
+    expire_in: 30 days
+  after_script:
+    - cd ./src/scripts/
+    - chmod +x notification.sh
+    - ./notification.sh

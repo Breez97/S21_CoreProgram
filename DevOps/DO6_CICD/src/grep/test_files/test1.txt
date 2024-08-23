@@ -1,0 +1,36 @@
+
+
+Test squeeze -s  --squeeze
+
+	text			text	
+
+
+text text text text text
+
+
+
+
+text text text text
+
+text 						text text text
+
+
+text text text						
+
+
+
+
+
+
+text
+
+
+
+hello, world!
+
+
+
+
+
+
+

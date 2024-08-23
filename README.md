@@ -7,10 +7,19 @@
 ### [Math](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C4_s21_math)
 ### [Decimal](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C5_s21_decimal)
 ### [Matrix](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C6_s21_matrix)
-### [BrickGame](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C7_BrickGame_v1.0)
+### [BrickGame (Tetris)](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C7_BrickGame_v1.0)
+
+## C++
+
+### [Matrix+]()
 
 ## DevOps
 
 ### [Linux](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/D01_Linux)
 ### [Linux Network](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/D02_LinuxNetwork)
 ### [Docker](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/DO5_SimpleDocker)
+### [CI/CD]()
+
+## SQL
+
+### [SQL Bootcamp]()
