@@ -11,15 +11,15 @@
 
 ## C++
 
-### [Matrix+]()
+### [Matrix+](https://github.com/Breez97/S21_CoreProgram/tree/main/C%2B%2B/CPP1_s21_matrixplus)
 
 ## DevOps
 
-### [Linux](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/D01_Linux)
-### [Linux Network](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/D02_LinuxNetwork)
+### [Linux](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/DO1_Linux)
+### [Linux Network](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/DO2_LinuxNetwork)
 ### [Docker](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/DO5_SimpleDocker)
-### [CI/CD]()
+### [CI/CD](https://github.com/Breez97/S21_CoreProgram/tree/main/DevOps/DO6_CICD)
 
 ## SQL
 
-### [SQL Bootcamp]()
+### [SQL Bootcamp](https://github.com/Breez97/S21_CoreProgram/tree/main/SQL)
