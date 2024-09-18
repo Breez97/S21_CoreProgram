@@ -4,8 +4,8 @@
 
 | Project Name | Project Date | Description |
 |:-:|:-:|:-:|
-| [Simple Bash Utils](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C3_SimpleBashUtils) | 11.2023 | Development of basic Bash utilities (cat and grep) for working with text files |
-| [String+](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C2_s21_stringplus) | 01.2024 | Development of own implementation of the string.h library in C programming language |
+| [Simple Bash Utils](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C3_SimpleBashUtils) | 11.2023 | Development of basic Bash utilities (cat and grep) for working with text files. |
+| [String+](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C2_s21_stringplus) | 01.2024 | Development of own implementation of the string.h library in C programming language. |
 | [Math](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C4_s21_math) | 01.2024 | Development of own version of the standard math.h library in the C programming language. |
 | [Decimal](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C5_s21_decimal) | 03.2024 | Development of own implementation of the s21_decimal.h library in the C programming language. |
 | [Matrix](https://github.com/Breez97/S21_CoreProgram/tree/main/C/C6_s21_matrix) | 04.2024 | Development of implementation own library for processing numerical matrices in the C programming language. |
